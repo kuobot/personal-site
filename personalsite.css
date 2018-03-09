@@ -13,6 +13,14 @@
 	font-size: 80px;
 }
 
+.location {
+	font-weight: 800;
+} 
+
+.likes {
+	font-weight: 800;
+}
+
 #subhero {
 	font-family: Helvetica;
 	font-size: 24px;

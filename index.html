@@ -9,10 +9,10 @@
 	<div class = "container">
 	<div class = "logo"><img src = "noun_131625_cc.png"></img></div>
 	<div class = "hero">Hi! I'm Joann.</div>
-	<div id = "subhero">I'm a developer/designer based in San Francisco, California. I like philosophy, making things, and coffee. </div>
+	<div id = "subhero">I'm a developer/designer based in <div class = 'location'>San Francisco, California</div> I like <div class = "likes">philosophy, making things, and coffee. </div></div>
 	<div class = "projects">
 		<div class = "projectcat">Web
-			<div class = "projectname">Philosophical Wax - since the nature of these questions were that they were valuable only when you have discourse and enough conversation centered around them, I decided to make it a web (vs native mobile) project so that I could add a conversational aspect to it.</div>
+			<div class = "projectname">Philosophy - since the nature of these questions were that they were valuable only when you have discourse and enough conversation centered around them, I decided to make it a web (vs native mobile) project so that I could add a conversational aspect to it.</div>
 			<div class = "projectname">Social Games - the bulk of my mobile work, centered around using technology to facilitate and strengthen social bonds. I built this site to bring them together under one roof called Social Games.</div>
 		</div>
 		<div class = "projectcat">iOS
@@ -26,14 +26,31 @@
 			<div class = "projectname">Terminal Commands Flashcards - I made this to help me learn terminal commands.</div>
 			<div class = "projectname">Learn To Code The Feynman Way - I made this to help me identify and track my progress and learning gaps so I could see what I needed to focus on next.</div>
 		</div>
+		<div class = "projectcat">How can I help you?
+		<div class = "projectname">Drop me a line on <a href="Twitter">Twitter</a> to let me know what challenges you're facing right now!</div>
+
 	</div>
+
+
+
 	<footer>This site made with &#9829; by UnicornsDon'tFart</footer>
 
 	</body>
 <script>
 'use strict';
 
-var tagline = document.getElementById("subhero").innerHTML = 'I\'m a developer/designer based in San Francisco, California. I like music, donuts, and making the DOM bend to my will.';
+var location = [
+	"New York, New York",
+	"Taipei, Taiwan"	
+];
+
+var likes = [
+	"hackathons, efficiency, and awesome people"
+	"music, donuts, and making the DOM bend to my will",
+	"solving problems, designing new experiences, making things better"
+];
+
+// var tagline = document.getElementById("subhero").innerHTML = 'I\'m a developer/designer based in San Francisco, California. I like music, donuts, and making the DOM bend to my will.';
 
 //*[@id="subhero"]
 
