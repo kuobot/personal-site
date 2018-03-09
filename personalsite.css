@@ -1,0 +1,47 @@
+
+.container {
+	margin: 16px;
+}
+
+.logo img{
+ 	width: 100px;
+}
+
+.hero {
+	font-family: Helvetica;
+	font-weight: 800;
+	font-size: 80px;
+}
+
+#subhero {
+	font-family: Helvetica;
+	font-size: 24px;
+}
+
+.projects {
+	padding: 40px 0;
+} 
+
+.projectcat {
+	padding: 20px 0;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: 800;
+} 
+
+.projectname {
+	padding: 10px 0 0;
+	font-family: Helvetica;
+	font-size: 18px;
+	font-weight: 200;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 200;
+}
+
+footer {
+	text-align: center;
+	margin: 100px 0 40px;
+}
